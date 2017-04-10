@@ -126,7 +126,7 @@ The Question model represents a question from a particular Survey. It contains t
 The SurveyResponse model represents an individual response to a particular Survey. It contains the following fields and relationships:
 * A survey_id, which is the Survey it is a response to.
 * An employee_id, representing the employee whom the response belongs to.
-..* A validation can be written on the SurveyResponse model to ensure that each employee only answers a survey once.
+  * A validation can be written on the SurveyResponse model to ensure that each employee only answers a survey once.
 
 The QuestionResponse model is an intermediate model for the many-to-many connection between Questions and SurveyResponses. It contains the following fields and relationships:
 * A question_id, which is the Question it corresponds to.
